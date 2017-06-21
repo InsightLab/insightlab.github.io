@@ -1,38 +1,22 @@
----
-layout: default
-title: Home
----
+!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta content="text/html" http-equiv="content-type">
+	<title>Insight Data Science Lab</title>
+	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="stars"></div>
+	<div class="twinkling"></div>
+	<div class="clouds"></div>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
-
+	<div class="container">
+		<div class="title">INSIGHT DATA SCIENCE LAB</div>
+		<div class="sub-title">Research Group of the Federal University of Ceará</div>
+		<div class="description">Research and development initiatives in the areas of</div>
+		<div class="description">Data Science | Machine Learning | Big Data | Graphs | Trajectories</div>
+	</div>
+</body>
+</html>
