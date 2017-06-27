@@ -92,11 +92,12 @@ header a, a:visited {
     background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
     z-index:3;
 
-  -moz-animation:move-clouds-back 200s linear infinite;
-  -ms-animation:move-clouds-back 200s linear infinite;
-  -o-animation:move-clouds-back 200s linear infinite;
-  -webkit-animation:move-clouds-back 200s linear infinite;
-  animation:move-clouds-back 200s linear infinite;
+    -moz-animation:move-clouds-back 200s linear infinite;
+    -ms-animation:move-clouds-back 200s linear infinite;
+    -o-animation:move-clouds-back 200s linear infinite;
+    -webkit-animation:move-clouds-back 200s linear infinite;
+    animation:move-clouds-back 200s linear infinite;
+    filter: hue-rotate(200deg);
 }
 
 .container {
