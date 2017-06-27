@@ -2317,6 +2317,10 @@
 			padding-left: 0.5em;
 		}
 
+		ul li small {
+			font-size: 12px;
+		}
+
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
@@ -2937,13 +2941,15 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
+		background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+		/*background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat;*/
 		text-align: center;
-		border-top: 0.5em solid #5385c1;
+		border-bottom: 0.5em solid #5385c1;  		
+  		overflow: hidden;
 	}
 
 		#banner h1 {
