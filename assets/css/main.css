@@ -1771,6 +1771,10 @@
 				max-width: 85%;
 			}
 
+			img.talk {
+				display: none;
+			}
+
 		}
 
 /* Section/Article */
@@ -2236,6 +2240,13 @@
 		}
 
 /* Image */
+	
+	img.talk {
+		float: left;
+		height: 98px; 
+		border: 1px solid #dddddd;
+		margin-right: 10px;
+	}
 
 	.image {
 		border-radius: 0;
@@ -2252,6 +2263,8 @@
 		.image.left, .image.right {
 			max-width: 40%;
 		}
+
+		
 
 			.image.left img, .image.right img {
 				width: 100%;
@@ -2785,6 +2798,11 @@
 
 			#header a:hover {
 				color: #ffffff;
+			}
+
+			#header a.active {
+			    font-weight: bold;
+			    color: #ffffff;
 			}
 
 			#header a:last-child {
