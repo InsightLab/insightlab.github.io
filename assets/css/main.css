@@ -2211,6 +2211,7 @@
 
 				.box.person .image img {
 					max-width: 100%;
+					border: 2px solid #dddddd;
 				}
 
 /* Icon */
