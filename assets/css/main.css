@@ -1809,7 +1809,7 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #131a33;
+			background: #001e3b;
 			color: #3498db;
 		}
 
@@ -2737,7 +2737,7 @@
 	}
 
 		.subpage #header {
-			background: #131a33;
+			background: #001e3b;
 			top: 0;
 			height: 55px;
 			line-height: 55px;
