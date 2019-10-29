@@ -6,7 +6,7 @@ We are a diverse group of thinkers, inventors and friends
 
 ## Build
 
-Open html files in your web browser!
+Open `index.html` file in your web browser!
 
 ## Contributing
 
